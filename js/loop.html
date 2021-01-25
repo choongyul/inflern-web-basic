@@ -1,0 +1,45 @@
+<script>
+    var number1 = 1;
+    var number2 = 1;
+
+    console.log(number1);
+    console.log(number2);
+
+    for (var i = 0; i < 100; i++) {
+        var number = number1 + number2;
+        console.log(number);
+        number1 = number2;
+        number2 = number;        
+    }
+
+    //while
+    number1 = 1;
+    number2 = 1;
+
+    console.log(number1);
+    console.log(number2);
+
+    var i =0;
+
+    while( i < 100) {
+        var number = number1 + number2;
+        console.log(number);
+        number1 = number2;
+        number2 = number;
+        i++;
+    }
+
+    number1 = 1;
+    number2 = 1;
+
+    console.log(number1);
+    console.log(number2);
+
+    while (number2 < 10000) {
+        var number = number1 + number2;
+        console.log(number);
+        number1 = number2;
+        number2 = number;
+    }
+
+</script>
