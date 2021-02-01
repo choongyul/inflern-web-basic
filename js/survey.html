@@ -37,7 +37,7 @@
     for(var i = 0; i < list.length; i++ ) {
         var index = parseInt(list[i].anwser);
 
-        var message = list[i].question + '\n당신의 선택: ' + list[i].option[index];
+        var message = list[i].question + '\n당신의 선택: ' + list[i].option[index-1];
         alert( message );
     }
 
